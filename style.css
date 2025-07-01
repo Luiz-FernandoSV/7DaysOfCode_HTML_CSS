@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: #667085;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding: 10px;
+}
+.links{
+    display: flex;
+    margin-left: 50px;
+}
+.links a {
+    color: #667085;
+    padding: 10px;
+
+}
+.login-cadastrar a{
+    text-decoration: none;
+    padding: 10px;
+}
+.cadastrar{
+    background-color: #8E2424;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+}
+.entrar{
+    color: #667085;
+}
