@@ -83,3 +83,24 @@ a{
     text-align: center;
     font-size: 20px;
 }
+/*Estilos da seção de métricas*/
+.metricas-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 50px;
+}
+.metrica{
+    width: 250px;
+}
+.titulo-metrica{
+    color: var(--main-text-color);
+    font-size: 50px;
+    font-weight: 600;
+}
+.subtitulo-metrica{
+    color: var(--dark-text-color);
+    font-weight: 500 ;
+}
+.texto-metrica{
+    color: var(--text-color);
+}
