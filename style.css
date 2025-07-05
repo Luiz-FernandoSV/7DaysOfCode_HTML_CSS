@@ -84,7 +84,7 @@ a{
     font-size: 20px;
 }
 /*Estilos da seção de métricas*/
-.metricas-container{
+.container-metricas{
     display: flex;
     justify-content: space-evenly;
     padding: 0 50px;
@@ -103,4 +103,38 @@ a{
 }
 .texto-metrica{
     color: var(--text-color);
+}
+/*Estilos da seção de talentos*/
+.container-talentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+.destaque-talentos{
+    padding: 5px;
+    font-size: 14px;
+    font-weight:500;
+    width: 125px;
+    color: var(--main-text-color);
+    background-color: rgb(142, 36, 36, 0.05);
+    text-align: center;
+    border-radius: 16px;
+}
+.titulo-talentos{
+    margin: 20px;
+    color: var(--dark-text-color);
+    font-size: 36px;
+}
+.texto-talentos{
+    margin: 20px;
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 400;
+}
+.img-talentos{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
 }
