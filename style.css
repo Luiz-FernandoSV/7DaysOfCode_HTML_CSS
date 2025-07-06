@@ -138,3 +138,41 @@ a{
     margin-right: auto;
     width: 95%;
 }
+/*Estilos da seção de vagas*/
+.container-vagas{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 75%;
+}
+.container-area{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 40px 0px 40px;
+}
+.tipo-vaga{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--dark-text-color);
+}
+.vaga{
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    width: 100%;
+    padding: 30px;
+    color: var(--text-color);
+    margin: 20px;
+}
+.nome-vaga{
+    color: var(--dark-text-color);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.container-detalhes{
+    display: flex;
+}
+.detalhes-vaga{
+    margin-right: 30px;
+}
