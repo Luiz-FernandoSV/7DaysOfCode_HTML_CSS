@@ -11,6 +11,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*Container principal da página*/
+.container-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 /*Estilos da navbar*/
 .navbar{
     display: flex;
@@ -175,4 +181,81 @@ a{
 }
 .detalhes-vaga{
     margin-right: 30px;
+}
+/*Estilos do depoimento*/
+.container-depoimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(195, 25, 25, 0.03);
+    text-align: center;
+    padding: 40px;
+    width: 90%;
+    margin: 0 auto;
+    gap: 20px;
+}
+.texto-depoimento{
+    color: var(--main-text-color);
+    font-size: 14px;
+    font-weight: 600;
+}
+.titulo-depoimento{
+    color: var(--dark-text-color);
+    font-size: 32px;
+    font-weight: 500;
+}
+.colaborador{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avatar-colaborador{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.nome-colaborador{
+    margin: 10px;
+    color: var(--dark-text-color);
+}
+.cargo-colaborador{
+    color: var(--text-color);
+}
+/*Estilos do rodapé*/
+.container-rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FAFB;
+    padding: 96px;
+    gap: 30px;
+}
+.titulo-rodape{
+    color: var(--dark-text-color);
+}
+.texto-rodape{
+    color: var(--text-color);
+}
+.cadastro{
+    display: flex;
+    gap: 18px;
+}
+input{
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    padding: 12px 14px 12px 16px;
+    width: 250px;
+}
+.btn-cadastrar{
+    background-color: var(--main-text-color);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 20px 12px 20px;
+}
+.copyright{
+    color: var(--text-color);
+    font-size: 12px;
 }
